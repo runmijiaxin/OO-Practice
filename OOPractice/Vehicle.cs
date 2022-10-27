@@ -1,6 +1,6 @@
 ﻿namespace OOPractice
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
         private string name;
         private int speed;
