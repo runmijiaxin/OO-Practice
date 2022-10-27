@@ -6,20 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOPractice
 {
-    public class Truck
+    public class Truck : Vehicle
     {
-        private string name;
-        private int speed;
-
-        public Truck(string name, int speed)
+        public Truck(string name, int speed) : base(name, speed)
         {
-            this.name = name;
-            this.speed = speed;
-        }
-
-        public string SpeedUp()
-        {
-            return $"{this.name}: speed up {this.speed} km/h";
         }
     }
 }
